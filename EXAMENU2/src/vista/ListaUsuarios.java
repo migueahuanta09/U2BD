@@ -22,7 +22,7 @@ public class ListaUsuarios extends JFrame {
         panelPrincipal.setBorder(BorderFactory.createEmptyBorder(20, 25, 20, 25));
 
         // Título
-        JLabel lblTitulo = new JLabel("👥 Lista de Usuarios y Cuentas - BancoDBB", SwingConstants.CENTER);
+        JLabel lblTitulo = new JLabel("Lista de Usuarios y Cuentas - BancoDBB", SwingConstants.CENTER);
         lblTitulo.setFont(new Font("Arial", Font.BOLD, 24));
         lblTitulo.setForeground(new Color(0, 70, 140));
         panelPrincipal.add(lblTitulo, BorderLayout.NORTH);
@@ -31,13 +31,13 @@ public class ListaUsuarios extends JFrame {
         JPanel panelControles = new JPanel(new FlowLayout(FlowLayout.CENTER, 15, 10));
         panelControles.setBorder(BorderFactory.createEmptyBorder(10, 0, 20, 0));
 
-        btnActualizar = new JButton("🔄 Actualizar Lista");
+        btnActualizar = new JButton("Actualizar Lista");
         btnActualizar.setFont(new Font("Arial", Font.BOLD, 14));
         btnActualizar.setPreferredSize(new Dimension(180, 35));
         btnActualizar.setBackground(new Color(0, 120, 215));
         btnActualizar.setForeground(Color.WHITE);
 
-        btnVolver = new JButton("← Volver al Menú");
+        btnVolver = new JButton("Volver al Menú");
         btnVolver.setFont(new Font("Arial", Font.PLAIN, 14));
         btnVolver.setPreferredSize(new Dimension(150, 35));
         btnVolver.setBackground(new Color(200, 200, 200));

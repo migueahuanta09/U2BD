@@ -19,7 +19,7 @@ public class Transferencia extends JFrame {
         panelPrincipal.setBorder(BorderFactory.createEmptyBorder(30, 50, 30, 50));
 
         // Título
-        JLabel lblTitulo = new JLabel("💸 Transferencia Bancaria", SwingConstants.CENTER);
+        JLabel lblTitulo = new JLabel("Transferencia Bancaria", SwingConstants.CENTER);
         lblTitulo.setFont(new Font("Arial", Font.BOLD, 24));
         lblTitulo.setForeground(new Color(0, 70, 140));
         lblTitulo.setBorder(BorderFactory.createEmptyBorder(0, 0, 20, 0));
